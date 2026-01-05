@@ -32,5 +32,5 @@ Dataset-et janë krijuar që përgjigjet të jenë **drejtpërdrejt të verifiku
 ```text
 qa/
 ├── qa_train.json
-├── evaluation_benchmark_v2_complete.json
+├── vleresimi.json
 └── README.md
