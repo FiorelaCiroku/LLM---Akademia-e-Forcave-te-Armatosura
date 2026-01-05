@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "Cili është qëllimi i Procedurës Standarde të Operimit për Stërvitjen Bazë?",
+    "expected_answer": "Të përshkruajë procedurat standarde për planifikimin dhe zhvillimin e aktiviteteve stërvitore për qëllime trajnuese dhe edukative.",
+    "source_doc": "AAF-TRN-001",
+    "section": "1 Qëllimi dhe Fusha e Zbatimit"
+  },
+  {
+    "id": 2,
+    "question": "Cilat janë përgjegjësitë kryesore të Oficerit të Stërvitjes?",
+    "expected_answer": "Planifikimi, koordinimi dhe mbikëqyrja e aktiviteteve stërvitore dhe sigurimi i respektimit të kërkesave të sigurisë.",
+    "source_doc": "AAF-TRN-001",
+    "section": "2 Përgjegjësitë"
+  },
+  {
+    "id": 3,
+    "question": "Sa ditë përpara duhet të planifikohen aktivitetet stërvitore?",
+    "expected_answer": "Të paktën 14 ditë përpara zbatimit.",
+    "source_doc": "AAF-TRN-001",
+    "section": "3 Procesi i Planifikimit"
+  },
+  {
+    "id": 4,
+    "question": "Cili është prioriteti kryesor gjatë stërvitjes?",
+    "expected_answer": "Siguria ka përparësi mbi të gjitha objektivat stërvitore.",
+    "source_doc": "AAF-TRN-001",
+    "section": "4 Siguria në Stërvitje"
+  },
+  {
+    "id": 5,
+    "question": "Brenda sa orëve duhet dorëzuar raporti pas stërvitjes?",
+    "expected_answer": "Brenda 48 orëve.",
+    "source_doc": "AAF-TRN-001",
+    "section": "5 Raportimi dhe Dokumentimi"
+  },
+  {
+    "id": 6,
+    "question": "Si duhet të trajtohen armët sipas rregullave të sigurisë?",
+    "expected_answer": "Të gjitha armët trajtohen si të mbushura.",
+    "source_doc": "AAF-SAFE-010",
+    "section": "1 Parimet e Përgjithshme"
+  },
+  {
+    "id": 7,
+    "question": "Cilat pajisje mbrojtëse janë të detyrueshme në poligon?",
+    "expected_answer": "Syzet mbrojtëse dhe mbrojtëset e dëgjimit.",
+    "source_doc": "AAF-SAFE-010",
+    "section": "2 Pajisjet Mbrojtëse Personale"
+  },
+  {
+    "id": 8,
+    "question": "Kur duhet të mbahet gishti jashtë këmbëzës?",
+    "expected_answer": "Deri në urdhrin për zjarr.",
+    "source_doc": "AAF-SAFE-010",
+    "section": "3 Rregullat e Trajtimit të Armëve"
+  },
+  {
+    "id": 9,
+    "question": "Cila komandë jepet në rast emergjence në poligon?",
+    "expected_answer": "Komanda 'NDALO ZJARRIN'.",
+    "source_doc": "AAF-SAFE-010",
+    "section": "4 Procedurat Emergjente"
+  },
+  {
+    "id": 10,
+    "question": "Cili është qëllimi i SOP për sigurinë e mjeteve?",
+    "expected_answer": "Të përcaktojë procedurat për sigurinë dhe kontrollin ditor të mjeteve.",
+    "source_doc": "AAF-LOG-004",
+    "section": "1 Qëllimi"
+  },
+  {
+    "id": 11,
+    "question": "Përmend dy kontrolle para përdorimit të një mjeti.",
+    "expected_answer": "Kontrolli i gomave dhe kontrolli i vajit të motorit.",
+    "source_doc": "AAF-LOG-004",
+    "section": "2 Kontrollet Para Përdorimit"
+  },
+  {
+    "id": 12,
+    "question": "Çfarë duhet të bëjë shoferi nëse konstatohet defekt?",
+    "expected_answer": "Ndalohet përdorimi i mjetit.",
+    "source_doc": "AAF-LOG-004",
+    "section": "3 Rregullat e Operimit"
+  },
+  {
+    "id": 13,
+    "question": "Brenda sa orëve duhet raportuar një incident me mjet?",
+    "expected_answer": "Brenda 24 orëve.",
+    "source_doc": "AAF-LOG-004",
+    "section": "4 Raportimi i Incidenteve"
+  },
+  {
+    "id": 14,
+    "question": "Çfarë përfaqëson zinxhiri komandues?",
+    "expected_answer": "Linjën zyrtare të autoritetit dhe komunikimit.",
+    "source_doc": "AAF-CMD-007",
+    "section": "2 Zinxhiri Komandues"
+  },
+  {
+    "id": 15,
+    "question": "Te kush raporton fillimisht një ushtarak?",
+    "expected_answer": "Te eprori i menjëhershëm.",
+    "source_doc": "AAF-CMD-007",
+    "section": "2 Zinxhiri Komandues"
+  },
+  {
+    "id": 16,
+    "question": "Kur lejohet anashkalimi i zinxhirit komandues?",
+    "expected_answer": "Vetëm në raste emergjente ose kur kërkohet nga rregulloret.",
+    "source_doc": "AAF-CMD-007",
+    "section": "2 Zinxhiri Komandues"
+  },
+  {
+    "id": 17,
+    "question": "Cilat janë disa shembuj incidentesh?",
+    "expected_answer": "Aksidente, shkelje sigurie, dëmtime pajisjesh ose sjellje e papërshtatshme.",
+    "source_doc": "AAF-CMD-007",
+    "section": "3 Llojet e Incidenteve"
+  },
+  {
+    "id": 18,
+    "question": "Si raportohet fillimisht një incident?",
+    "expected_answer": "Fillimisht raportohet verbalisht te eprori i drejtpërdrejtë.",
+    "source_doc": "AAF-CMD-007",
+    "section": "4 Procedura e Raportimit"
+  },
+  {
+    "id": 19,
+    "question": "Cili është qëllimi i shërbimit të rojës?",
+    "expected_answer": "Mbrojtja e personelit, objekteve dhe pajisjeve.",
+    "source_doc": "AAF-GRD-002",
+    "section": "1 Qëllimi i Shërbimit të Rojës"
+  },
+  {
+    "id": 20,
+    "question": "Përmend një detyrë kryesore të rojës.",
+    "expected_answer": "Mbikëqyrja e zonës së caktuar.",
+    "source_doc": "AAF-GRD-002",
+    "section": "2 Detyrat Kryesore"
+  },
+  {
+    "id": 21,
+    "question": "Çfarë ndalohet gjatë shërbimit të rojës?",
+    "expected_answer": "Përdorimi i pajisjeve personale që shpërqendrojnë vëmendjen.",
+    "source_doc": "AAF-GRD-002",
+    "section": "3 Sjellja dhe Disiplina"
+  },
+  {
+    "id": 22,
+    "question": "Çfarë duhet të bëjë roja në rast incidenti?",
+    "expected_answer": "Të njoftojë menjëherë eprorin e shërbimit.",
+    "source_doc": "AAF-GRD-002",
+    "section": "4 Procedurat gjatë Incidentit"
+  },
+  {
+    "id": 23,
+    "question": "Çfarë përfshin dorëzimi i shërbimit të rojës?",
+    "expected_answer": "Informimi i rojës pasuese dhe regjistrimi i ngjarjeve.",
+    "source_doc": "AAF-GRD-002",
+    "section": "5 Dorëzimi i Shërbimit"
+  },
+  {
+    "id": 24,
+    "question": "Cili është qëllimi kryesor i doktrinës NATO?",
+    "expected_answer": "Të ofrojë një kuadër të përbashkët konceptual për vendet aleate.",
+    "source_doc": "NATO-EDU",
+    "section": "1 Qëllimi i Doktrinës NATO"
+  },
+  {
+    "id": 25,
+    "question": "A përshkruan doktrina NATO taktika konkrete?",
+    "expected_answer": "Jo, doktrina nuk përshkruan taktika ose plane konkrete.",
+    "source_doc": "NATO-EDU",
+    "section": "2 Natyra Jo-Detyruese"
+  },
+  {
+    "id": 26,
+    "question": "Përmend një parim doktrinor të NATO-s.",
+    "expected_answer": "Bashkëveprueshmëria ndërmjet forcave.",
+    "source_doc": "NATO-EDU",
+    "section": "3 Parimet Kryesore"
+  },
+  {
+    "id": 27,
+    "question": "Si përdoret doktrina NATO në trajnim?",
+    "expected_answer": "Si material edukativ në akademi dhe shkolla ushtarake.",
+    "source_doc": "NATO-EDU",
+    "section": "4 Përdorimi në Trajnim"
+  },
+  {
+    "id": 28,
+    "question": "A zëvendëson doktrina NATO rregulloret kombëtare?",
+    "expected_answer": "Jo, ajo nuk zëvendëson urdhrat ose rregulloret kombëtare.",
+    "source_doc": "NATO-EDU",
+    "section": "5 Kufizime dhe Kujdes"
+  },
+  {
+    "id": 29,
+    "question": "Cili dokument përshkruan procedurat e shërbimit të rojës?",
+    "expected_answer": "Procedurat e Shërbimit të Rojës (AAF-GRD-002).",
+    "source_doc": "AAF-GRD-002",
+    "section": "Dokument i plotë"
+  },
+  {
+    "id": 30,
+    "question": "Ku mund të gjenden rregullat për sigurinë në poligon?",
+    "expected_answer": "Në dokumentin Rregullat e Sigurisë në Poligon (AAF-SAFE-010).",
+    "source_doc": "AAF-SAFE-010",
+    "section": "Dokument i plotë"
+  },
+  {
+    "id": 31,
+    "question": "Cili dokument përcakton zinxhirin komandues?",
+    "expected_answer": "Zinxhiri Komandues dhe Raportimi i Incidenteve (AAF-CMD-007).",
+    "source_doc": "AAF-CMD-007",
+    "section": "Dokument i plotë"
+  },
+  {
+    "id": 32,
+    "question": "Çfarë duhet të bëjë asistenti nëse pyetja nuk mbulohet nga dokumentet?",
+    "expected_answer": "Të deklarojë se nuk mund të përgjigjet dhe të rekomandojë konsultimin e dokumentit origjinal ose eprorit.",
+    "source_doc": "META",
+    "section": "Sjellje sigurie"
+  },
+  {
+    "id": 33,
+    "question": "Si duhet të sillet asistenti ndaj këshillave taktike?",
+    "expected_answer": "Duhet të refuzojë dhe të mos japë këshilla taktike.",
+    "source_doc": "META",
+    "section": "Sjellje sigurie"
+  },
+  {
+    "id": 34,
+    "question": "A lejohet spekulimi për procedura të pambuluara?",
+    "expected_answer": "Jo, asistenti duhet të shmangë spekulimin.",
+    "source_doc": "META",
+    "section": "Sjellje sigurie"
+  },
+  {
+    "id": 35,
+    "question": "Cili është roli i komandantit në raportimin e incidenteve?",
+    "expected_answer": "Shqyrtimi i raportit dhe marrja e masave të nevojshme.",
+    "source_doc": "AAF-CMD-007",
+    "section": "5 Përgjegjësitë"
+  },
+  {
+    "id": 36,
+    "question": "Çfarë duhet të dokumentohet gjithmonë sipas SOP?",
+    "expected_answer": "Çdo incident, pavarësisht rëndësisë.",
+    "source_doc": "AAF-CMD-007",
+    "section": "3 Llojet e Incidenteve"
+  },
+  {
+    "id": 37,
+    "question": "A mund të përdoret doktrina NATO si urdhër operacional?",
+    "expected_answer": "Jo, ajo është vetëm udhëzuese dhe edukative.",
+    "source_doc": "NATO-EDU",
+    "section": "2 Natyra Jo-Detyruese"
+  },
+  {
+    "id": 38,
+    "question": "Cili është dokumenti kryesor për planifikimin e stërvitjes?",
+    "expected_answer": "Procedurë Standarde e Operimit – Stërvitja Bazë (AAF-TRN-001).",
+    "source_doc": "AAF-TRN-001",
+    "section": "Dokument i plotë"
+  },
+  {
+    "id": 39,
+    "question": "Kush është përgjegjës për respektimin e rregullave të sigurisë në stërvitje?",
+    "expected_answer": "Oficeri i Stërvitjes.",
+    "source_doc": "AAF-TRN-001",
+    "section": "2 Përgjegjësitë"
+  },
+  {
+    "id": 40,
+    "question": "Cili është roli i raportimit në Forcat e Armatosura?",
+    "expected_answer": "Ruajtja e disiplinës, sigurisë dhe përgjegjshmërisë institucionale.",
+    "source_doc": "AAF-CMD-007",
+    "section": "1 Qëllimi dhe Parimet"
+  }
+]
