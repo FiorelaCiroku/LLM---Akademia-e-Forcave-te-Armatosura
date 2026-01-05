@@ -1,5 +1,5 @@
 # Politika për Plagjiaturë   
-**Projekti Final: Doctrine & SOP Assistant**
+**Projekti Final**
 
 ---
 
