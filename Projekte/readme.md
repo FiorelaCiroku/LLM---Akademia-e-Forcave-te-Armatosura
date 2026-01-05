@@ -1,4 +1,4 @@
-# Politika për Plagjiaturë & Shmangien e shortcuts  
+# Politika për Plagjiaturë   
 **Projekti Final: Doctrine & SOP Assistant**
 
 ---
