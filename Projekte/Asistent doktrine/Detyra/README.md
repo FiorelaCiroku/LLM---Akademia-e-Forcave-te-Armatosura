@@ -18,7 +18,7 @@ Në fund të kursit, do të jeni në gjendje të:
 
 ---
 
-## 📂 Struktura e Dosjes
+## Struktura e Dosjes
 
 ```text
 assignments/
