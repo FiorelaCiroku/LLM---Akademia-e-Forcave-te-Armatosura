@@ -72,7 +72,7 @@ Ju vlerësoheni për:
 - refuzimet e sakta
 - analizën e gabimeve
 
-👉 Një sistem i thjeshtë, i menduar mirë, vlen më shumë se një sistem kompleks i kopjuar.
+Një sistem i thjeshtë, i menduar mirë, vlen më shumë se një sistem kompleks i kopjuar.
 
 ---
 
