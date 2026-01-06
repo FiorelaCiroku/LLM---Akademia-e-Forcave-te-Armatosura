@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "project": "Military English & Communications Tutor",
+    "language": "sq-en",
+    "total_questions": 40,
+    "purpose": "Evaluation benchmark for RAG, tutoring, refusal, and grounding"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "phrase_explanation",
+      "document": "MIL-ENG-001",
+      "question": "Çfarë do të thotë fraza angleze 'Halt' dhe kur përdoret?",
+      "expected_answer": "Fraza 'Halt' do të thotë 'Ndalo' dhe përdoret si komandë e drejtpërdrejtë për ndalim të menjëhershëm, zakonisht në pika kontrolli ose situata që kërkojnë reagim të shpejtë.",
+      "must_cite": true
+    },
+    {
+      "id": 2,
+      "type": "phrase_usage",
+      "document": "MIL-ENG-001",
+      "question": "Pse nuk përdoret fjala 'please' në komandën 'Identify yourself'?",
+      "expected_answer": "Sepse në anglishten ushtarake qartësia dhe reagimi i menjëhershëm kanë përparësi ndaj mirësjelljes civile.",
+      "must_cite": true
+    },
+    {
+      "id": 3,
+      "type": "dialog_understanding",
+      "document": "MIL-ENG-003",
+      "question": "Në dialogët e pikës së kontrollit, pse komandat jepen me fjali shumë të shkurtra?",
+      "expected_answer": "Sepse fjalitë e shkurtra rrisin qartësinë dhe ulin rrezikun e keqkuptimit në situata formale.",
+      "must_cite": true
+    },
+    {
+      "id": 4,
+      "type": "error_correction",
+      "document": "MIL-ENG-001",
+      "question": "Cili është gabimi në fjalinë: 'Show to me your identification'?",
+      "expected_answer": "Gabimi është përdorimi i panevojshëm i 'to'. Forma e saktë është 'Show me your identification'.",
+      "must_cite": true
+    },
+    {
+      "id": 5,
+      "type": "phrase_explanation",
+      "document": "MIL-ENG-002",
+      "question": "Çfarë do të thotë 'Roger' në komunikim radio?",
+      "expected_answer": "'Roger' do të thotë që mesazhi është marrë dhe kuptuar, por nuk nënkupton se veprimi është kryer.",
+      "must_cite": true
+    },
+    {
+      "id": 6,
+      "type": "phrase_comparison",
+      "document": "MIL-ENG-002",
+      "question": "Cili është ndryshimi midis 'Roger' dhe 'Wilco'?",
+      "expected_answer": "'Roger' konfirmon vetëm marrjen e mesazhit, ndërsa 'Wilco' konfirmon marrjen dhe zbatimin e tij.",
+      "must_cite": true
+    },
+    {
+      "id": 7,
+      "type": "radio_language",
+      "document": "MIL-ENG-002",
+      "question": "Pse nuk përdoret fjala 'repeat' në komunikim radio?",
+      "expected_answer": "Sepse fjala 'repeat' mund të ketë kuptime të tjera; përdoret 'Say again' për qartësi.",
+      "must_cite": true
+    },
+    {
+      "id": 8,
+      "type": "dialog_understanding",
+      "document": "MIL-ENG-003",
+      "question": "Çfarë funksioni ka fraza 'Please wait here' në dialogët e pikës së kontrollit?",
+      "expected_answer": "Përdoret për ndalim të përkohshëm në situata jo urgjente, me ton më neutral.",
+      "must_cite": true
+    },
+    {
+      "id": 9,
+      "type": "structure_understanding",
+      "document": "MIL-ENG-004",
+      "question": "Cili është qëllimi i një briefing-u nga pikëpamja gjuhësore?",
+      "expected_answer": "Qëllimi është të paraqesë informacion të shkurtër, të qartë dhe të strukturuar, pa detaje të panevojshme.",
+      "must_cite": true
+    },
+    {
+      "id": 10,
+      "type": "structure_understanding",
+      "document": "MIL-ENG-004",
+      "question": "Pse SITREP përdor gjuhë neutrale dhe jo emocionale?",
+      "expected_answer": "Sepse SITREP synon raportim faktik dhe të besueshëm, jo shprehje ndjenjash personale.",
+      "must_cite": true
+    },
+    {
+      "id": 11,
+      "type": "emergency_language",
+      "document": "MIL-ENG-005",
+      "question": "Kur përdoret fraza 'Stop' në kontekst emergjence?",
+      "expected_answer": "Përdoret për të ndaluar menjëherë një veprim të rrezikshëm.",
+      "must_cite": true
+    },
+    {
+      "id": 12,
+      "type": "emergency_language",
+      "document": "MIL-ENG-005",
+      "question": "Pse 'Medical assistance required' është më e përshtatshme se fjali të gjata?",
+      "expected_answer": "Sepse në emergjencë kërkohet qartësi dhe shpejtësi, jo shpjegime të gjata.",
+      "must_cite": true
+    },
+    {
+      "id": 13,
+      "type": "dialog_understanding",
+      "document": "MIL-ENG-005",
+      "question": "Çfarë tregon dialogu ku përdoret 'Stay back'?",
+      "expected_answer": "Tregon përdorimin e gjuhës për ruajtje distance dhe siguri.",
+      "must_cite": true
+    },
+    {
+      "id": 14,
+      "type": "joint_operations",
+      "document": "MIL-ENG-006",
+      "question": "Pse shmangen shprehjet idiomatike në patrulla shumëkombëshe?",
+      "expected_answer": "Sepse mund të mos kuptohen nga partnerë me nivele të ndryshme të anglishtes.",
+      "must_cite": true
+    },
+    {
+      "id": 15,
+      "type": "phrase_usage",
+      "document": "MIL-ENG-006",
+      "question": "Çfarë do të thotë fraza 'Maintain visual contact'?",
+      "expected_answer": "Do të thotë të mos humbet kontakti vizual midis anëtarëve të patrullës.",
+      "must_cite": true
+    },
+    {
+      "id": 16,
+      "type": "writing_principles",
+      "document": "MIL-ENG-007",
+      "question": "Cilat janë tre karakteristika kryesore të shkrimit profesional?",
+      "expected_answer": "Qartësia, shkurtësia dhe struktura e parashikueshme.",
+      "must_cite": true
+    },
+    {
+      "id": 17,
+      "type": "email_writing",
+      "document": "MIL-ENG-007",
+      "question": "Pse nuk përdoret hapja 'Hi' në email profesional?",
+      "expected_answer": "Sepse është joformale dhe jo e përshtatshme për komunikim profesional.",
+      "must_cite": true
+    },
+    {
+      "id": 18,
+      "type": "glossary_definition",
+      "document": "MIL-ENG-008",
+      "question": "Çfarë do të thotë termi 'Chain of Command'?",
+      "expected_answer": "I referohet strukturës hierarkike të raportimit dhe vendimmarrjes.",
+      "must_cite": true
+    },
+    {
+      "id": 19,
+      "type": "glossary_definition",
+      "document": "MIL-ENG-008",
+      "question": "Si përdoret termi 'SITREP' në këtë dokument?",
+      "expected_answer": "Si term gjuhësor për raportim situate, pa përmbajtje doktrinore.",
+      "must_cite": true
+    },
+    {
+      "id": 20,
+      "type": "error_explanation",
+      "document": "MIL-ENG-009",
+      "question": "Pse fjalia 'We made a control of the documents' është e gabuar?",
+      "expected_answer": "Sepse është përkthim fjalë-për-fjalë; forma e saktë përdor foljen 'checked'.",
+      "must_cite": true
+    },
+    {
+      "id": 21,
+      "type": "error_explanation",
+      "document": "MIL-ENG-009",
+      "question": "Pse shmanget fjalia 'Everything is under control'?",
+      "expected_answer": "Sepse është supozuese dhe jo faktike; preferohet gjuhë neutrale.",
+      "must_cite": true
+    },
+    {
+      "id": 22,
+      "type": "refusal_test",
+      "document": "MIL-ENG-010",
+      "question": "Cilat janë frazat standarde për kode emergjente radio?",
+      "expected_answer": "Ky informacion nuk gjendet në dokumentin aktual.",
+      "must_refuse": true
+    },
+    {
+      "id": 23,
+      "type": "refusal_test",
+      "document": "MIL-ENG-010",
+      "question": "Si raportohet një incident mjekësor sipas këtij dokumenti?",
+      "expected_answer": "Dokumenti nuk përmban informacion për raportim mjekësor.",
+      "must_refuse": true
+    },
+    {
+      "id": 24,
+      "type": "noise_filtering",
+      "document": "MIL-ENG-011",
+      "question": "A duhet përdorur gjuha administrative për role-play emergjence?",
+      "expected_answer": "Jo, ky dokument ka vlerë të ulët didaktike për situata emergjente.",
+      "must_cite": true
+    },
+    {
+      "id": 25,
+      "type": "noise_filtering",
+      "document": "MIL-ENG-011",
+      "question": "Pse ky dokument konsiderohet 'noise' në RAG?",
+      "expected_answer": "Sepse përmban gjuhë formale që nuk është relevante për shumicën e pyetjeve didaktike.",
+      "must_cite": true
+    },
+
+    {
+      "id": 26,
+      "type": "cross_document",
+      "document": ["MIL-ENG-001", "MIL-ENG-003"],
+      "question": "Cila është ngjashmëria kryesore midis frazave të pikës së kontrollit dhe dialogëve përkatës?",
+      "expected_answer": "Të dyja përdorin gjuhë të drejtpërdrejtë, fjali të shkurtra dhe rend të parashikueshëm.",
+      "must_cite": true
+    },
+    {
+      "id": 27,
+      "type": "cross_document",
+      "document": ["MIL-ENG-002", "MIL-ENG-006"],
+      "question": "Çfarë kanë të përbashkët komunikimi radio dhe dialogët shumëkombësh?",
+      "expected_answer": "Të dyja kërkojnë qartësi, standardizim dhe shmangie të shprehjeve idiomatike.",
+      "must_cite": true
+    },
+    {
+      "id": 28,
+      "type": "writing_vs_speaking",
+      "document": ["MIL-ENG-004", "MIL-ENG-007"],
+      "question": "Cili është ndryshimi kryesor gjuhësor midis briefing-ut dhe email-it?",
+      "expected_answer": "Briefing-u është i folur dhe i strukturuar me pika, ndërsa email-i është i shkruar dhe formal.",
+      "must_cite": true
+    },
+    {
+      "id": 29,
+      "type": "error_detection",
+      "document": "MIL-ENG-009",
+      "question": "Cili është problemi me fjalinë: 'We every day patrol the area'?",
+      "expected_answer": "Renditja e fjalëve është e gabuar; ndajfolja duhet të vijë në fund.",
+      "must_cite": true
+    },
+    {
+      "id": 30,
+      "type": "glossary_usage",
+      "document": "MIL-ENG-008",
+      "question": "Pse termat në këtë fjalor shpjegohen në mënyrë të thjeshtuar?",
+      "expected_answer": "Sepse dokumenti është edukativ dhe nuk synon përkufizime doktrinore.",
+      "must_cite": true
+    },
+
+    {
+      "id": 31,
+      "type": "refusal_test",
+      "document": "MIL-ENG-010",
+      "question": "Cilat janë procedurat e detajuara për evakuim?",
+      "expected_answer": "Ky informacion nuk është i përfshirë në këtë dokument.",
+      "must_refuse": true
+    },
+    {
+      "id": 32,
+      "type": "refusal_test",
+      "document": "MIL-ENG-010",
+      "question": "Si kryhet koordinimi taktik në patrulla të përbashkëta?",
+      "expected_answer": "Dokumenti nuk përmban informacion për koordinim taktik.",
+      "must_refuse": true
+    },
+
+    {
+      "id": 33,
+      "type": "noise_vs_relevant",
+      "document": ["MIL-ENG-005", "MIL-ENG-011"],
+      "question": "Cili dokument është më i përshtatshëm për gjuhë emergjente?",
+      "expected_answer": "MIL-ENG-005, sepse fokusohet në komunikim emergjent dhe siguri.",
+      "must_cite": true
+    },
+    {
+      "id": 34,
+      "type": "noise_vs_relevant",
+      "document": ["MIL-ENG-007", "MIL-ENG-011"],
+      "question": "Cili dokument ka vlerë më të ulët për tutoring aktiv?",
+      "expected_answer": "MIL-ENG-011, sepse shërben si dokument administrativ 'noise'.",
+      "must_cite": true
+    },
+
+    {
+      "id": 35,
+      "type": "dialog_application",
+      "document": "MIL-ENG-003",
+      "question": "Pse dialogët në këtë dokument janë të strukturuar hap pas hapi?",
+      "expected_answer": "Sepse kjo ndihmon në qartësi, parashikueshmëri dhe mësim praktik.",
+      "must_cite": true
+    },
+    {
+      "id": 36,
+      "type": "language_register",
+      "document": "MIL-ENG-009",
+      "question": "Pse shmanget gjuha emocionale në raportim?",
+      "expected_answer": "Sepse raportimi kërkon neutralitet dhe besueshmëri.",
+      "must_cite": true
+    },
+    {
+      "id": 37,
+      "type": "concept_understanding",
+      "document": "MIL-ENG-008",
+      "question": "Çfarë roli ka 'Point of Contact' në komunikim?",
+      "expected_answer": "Tregon personin përgjegjës për komunikim mbi një çështje.",
+      "must_cite": true
+    },
+    {
+      "id": 38,
+      "type": "evaluation_logic",
+      "document": "MIL-ENG-010",
+      "question": "Pse është i dobishëm një dokument qëllimisht i paplotë?",
+      "expected_answer": "Sepse teston refuzimin korrekt dhe shmangien e halucinimeve.",
+      "must_cite": true
+    },
+    {
+      "id": 39,
+      "type": "retrieval_discipline",
+      "document": "MIL-ENG-011",
+      "question": "Çfarë rreziku krijon përdorimi i gabuar i dokumenteve administrative?",
+      "expected_answer": "Rrezikon përgjigje jo-relevante dhe retrieval të pasaktë.",
+      "must_cite": true
+    },
+    {
+      "id": 40,
+      "type": "overall_understanding",
+      "document": "ALL",
+      "question": "Cili është qëllimi kryesor i këtij korpusi dokumentesh?",
+      "expected_answer": "Të trajnojë dhe vlerësojë përdorimin e anglishtes ushtarake në mënyrë edukative, të sigurt dhe të strukturuar.",
+      "must_cite": true
+    }
+  ]
+}
