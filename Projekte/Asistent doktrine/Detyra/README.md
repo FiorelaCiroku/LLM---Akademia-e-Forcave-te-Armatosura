@@ -5,7 +5,7 @@ Projekti është **arsimor**, përdor **dokumente fiktive, të paklasifikuara**,
 
 ---
 
-## Qëllimi i Projektit
+## Qëllimi i projektit
 
 Në fund të kursit, do të jeni në gjendje të:
 
@@ -18,7 +18,7 @@ Në fund të kursit, do të jeni në gjendje të:
 
 ---
 
-## Struktura e Dosjes
+## Struktura e dosjes
 
 ```text
 assignments/
