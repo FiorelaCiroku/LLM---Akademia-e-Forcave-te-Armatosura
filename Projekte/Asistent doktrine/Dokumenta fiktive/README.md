@@ -6,7 +6,7 @@ Dokumentet përfaqësojnë një **bibliotekë doktrinore dhe procedurale fiktive
 
 ---
 
-## Paralajmërim i Rëndësishëm
+## Paralajmërim 
 
 - Të gjitha dokumentet në këtë dosje janë **fiktive**.
 - Ato **nuk përfaqësojnë** dokumente reale të Forcave të Armatosura ose të NATO-s.
@@ -15,7 +15,7 @@ Dokumentet përfaqësojnë një **bibliotekë doktrinore dhe procedurale fiktive
 
 ---
 
-## Qëllimi i Dokumenteve
+## Qëllimi i dokumenteve
 
 Këto dokumente përdoren për të:
 
@@ -25,11 +25,9 @@ Këto dokumente përdoren për të:
 - trajnuar sjellje të sigurta (refuzime kur informacioni mungon)
 - realizuar vlerësim objektiv përmes benchmark-ut
 
-Dokumentet janë krijuar për të qenë **procedurale, të strukturuara dhe të verifikueshme**.
-
 ---
 
-## 📄 Përmbajtja e Dosjes
+## Përmbajtja e dosjes
 
 ```text
 documents/
