@@ -1,9 +1,7 @@
 # Doctrine & SOP Assistant  
-**Përshkrimi i Projektit të Kursit**
+###Asistent i doktrinës
 
----
-
-## Përmbledhje
+## Përshkrimi i projektit 
 
 **Doctrine & SOP Assistant** është projekti final i kursit dhe synon ndërtimin e një **asistenti inteligjent të bazuar në modele gjuhësore (LLM)** që ndihmon përdoruesit të kërkojnë dhe kuptojnë **procedura, rregulla sigurie dhe materiale doktrinore edukative**.
 
@@ -17,7 +15,7 @@ Ky është një projekt **arsimor**, me dokumente **fiktive dhe të paklasifikua
 
 ---
 
-## Qëllimet e Projektit
+## Qëllimet e projektit
 
 Në përfundim të projektit, studentët do të jenë në gjendje të:
 
@@ -31,7 +29,7 @@ Në përfundim të projektit, studentët do të jenë në gjendje të:
 
 ---
 
-## Përdoruesit e Synuar (Skenar Fiktiv)
+## Përdoruesit e synuar
 
 Asistenti është konceptuar për përdorim nga:
 - kadetë
@@ -43,7 +41,7 @@ Ky është një **skenar simulimi** për qëllime mësimore.
 
 ---
 
-## Korpusi i Dokumenteve
+## Korpusi i dokumentave
 
 Projekti përdor një **korpus të mbyllur dokumentesh**, i cili përfshin:
 
@@ -72,7 +70,7 @@ Këto kufizime janë **pjesë e vlerësimit**.
 
 ---
 
-## Teknologjitë Kryesore
+## Teknologjitë kryesore
 
 Gjatë projektit, studentët do të punojnë me:
 
@@ -86,7 +84,7 @@ Gjatë projektit, studentët do të punojnë me:
 
 ---
 
-## Struktura e Projektit
+## Struktura e projektit
 
 Projekti zhvillohet gradualisht, në përputhje me temat e kursit:
 
@@ -105,19 +103,6 @@ Projekti zhvillohet gradualisht, në përputhje me temat e kursit:
 
 ---
 
-## Vlerësimi i Projektit
-
-Studentët vlerësohen bazuar në:
-
-- saktësinë dhe grounding-un e përgjigjeve
-- përdorimin korrekt të retrieval-it
-- citimet e qarta
-- refuzimet e sakta
-- analizën kritike të gabimeve
-- justifikimin e vendimeve të dizajnit
-
----
-
 ## Çfarë Nuk Është Ky Projekt
 
 Ky projekt **nuk është**:
@@ -133,16 +118,17 @@ Ky projekt **është**:
 
 ---
 
-## Mesazh Final për Studentët
+## Vlerësimi
 
-Ky projekt synon t’ju mësojë **si të ndërtoni sisteme AI që janë të dobishme, të verifikueshme dhe të sigurta**.
+Studentët vlerësohen bazuar në:
 
-Nëse jeni në dyshim:
-- mos spekuloni
-- refuzoni me kujdes
-- justifikoni zgjedhjet tuaja
-
-**Arsyetimi juaj është pjesa më e rëndësishme e projektit.**
+- saktësinë dhe grounding-un e përgjigjeve
+- përdorimin korrekt të retrieval-it
+- citimet e qarta
+- refuzimet e sakta
+- analizën kritike të gabimeve
+- justifikimin e vendimeve të dizajnit
 
 ---
+
 
